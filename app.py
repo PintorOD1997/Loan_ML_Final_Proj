@@ -14,7 +14,7 @@ def getModelResult():
     input = request.args.to_dict(flat=True)
     print(input)
     
-    input["Credit_History"] = int(input["Credit_History"])
+    input["Credit_History"] = 1
     input["Loan_Amount_Term"] = int(input["Loan_Amount_Term"])
 
 
